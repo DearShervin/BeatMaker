@@ -95,12 +95,12 @@ select {
 }
 
 .tempo {
-  margin: .5rem;
+  margin: 0.5rem;
   width: 30%;
 }
 .tempo-slider {
-  padding: .05rem;
-  margin: .5rem 0rem;
+  padding: 0.05rem;
+  margin: 0.5rem 0rem;
   width: 100%;
   position: relative;
   background: rgb(101, 99, 99);
@@ -110,7 +110,7 @@ select {
 }
 .tempo p {
   font-size: 1rem;
-  margin: .5rem;
+  margin: 0.5rem;
   text-align: center;
   margin-top: 1rem;
 }
