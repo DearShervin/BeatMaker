@@ -25,8 +25,8 @@ class Drumkit {
     activeBars.forEach((bar) => {
       bar.style.animation = `playTrack .3s alternate ease-in-out 2`; /* the 2 is the alternation count , so it would 
             alternate back to its original position*/
-      //we have to get rid of the animation after the animation so it would run again , we add it in drumKit.pads.forEach ...
-      //checking of pads are active :
+      //we have to get rid of the previous animation after the animation so it would run again , we add it in drumKit.pads.forEach ...
+      //checking if pads are active :
       if (bar.classList.contains("active")) {
         //checking that which pad is active , kick , snare or hihat :
         if (bar.classList.contains("kick-pad")) {
